@@ -15,6 +15,7 @@
 		B13A909D273A1FB7003DE67D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B13A909B273A1FB7003DE67D /* LaunchScreen.storyboard */; };
 		B13A90A8273A1FB7003DE67D /* PreworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B13A90A7273A1FB7003DE67D /* PreworkTests.swift */; };
 		B13A90B3273A1FB7003DE67D /* PreworkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B13A90B2273A1FB7003DE67D /* PreworkUITests.swift */; };
+		B13A90C1274CA280003DE67D /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B13A90C0274CA280003DE67D /* SettingsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		B13A90AE273A1FB7003DE67D /* PreworkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PreworkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B13A90B2273A1FB7003DE67D /* PreworkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreworkUITests.swift; sourceTree = "<group>"; };
 		B13A90B4273A1FB7003DE67D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B13A90C0274CA280003DE67D /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 		B13A9084273A1FAF003DE67D = {
 			isa = PBXGroup;
 			children = (
+				B13A90C0274CA280003DE67D /* SettingsViewController.swift */,
 				B13A908F273A1FAF003DE67D /* Prework */,
 				B13A90A6273A1FB7003DE67D /* PreworkTests */,
 				B13A90B1273A1FB7003DE67D /* PreworkUITests */,
@@ -261,6 +264,7 @@
 				B13A9095273A1FAF003DE67D /* ViewController.swift in Sources */,
 				B13A9091273A1FAF003DE67D /* AppDelegate.swift in Sources */,
 				B13A9093273A1FAF003DE67D /* SceneDelegate.swift in Sources */,
+				B13A90C1274CA280003DE67D /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,6 +441,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z2T9KG2GF8;
 				INFOPLIST_FILE = Prework/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -455,6 +460,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z2T9KG2GF8;
 				INFOPLIST_FILE = Prework/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -494,6 +500,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z2T9KG2GF8;
 				INFOPLIST_FILE = PreworkTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -533,6 +540,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z2T9KG2GF8;
 				INFOPLIST_FILE = PreworkUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
