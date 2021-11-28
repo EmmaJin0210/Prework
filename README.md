@@ -37,6 +37,8 @@ GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 Describe any challenges encountered while building the app.
 
+* Forgot to delete a link between UI element and code, and was therefore experiencing some errors in the settings page. (Fixed after deleting the link)
+
 ## License
 
     Copyright [2021] [Meiqing (Emma) Jin]
